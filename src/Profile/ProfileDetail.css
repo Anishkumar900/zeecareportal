@@ -1,0 +1,24 @@
+/* Define gradient and animated text */
+.gradient-animated-text {
+    background: linear-gradient(to right, red, green); /* Gradient background with a strong green */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make text color transparent to show the gradient */
+    background-size: 200% 100%;
+    animation: colorChange 5s ease-in-out infinite; /* Apply a smoother color change animation */
+}
+
+/* Keyframes for the color change animation */
+@keyframes colorChange {
+    0% {
+        background-position: 0% 0%; /* Start position */
+        color: rgb(243, 45, 45); /* Start color */
+    }
+    50% {
+        background-position: 100% 0%; /* Mid position */
+        color: green; /* Mid color */
+    }
+    100% {
+        background-position: 0% 0%; /* End position */
+        color: rgb(243, 45, 45); /* End color */
+    }
+}

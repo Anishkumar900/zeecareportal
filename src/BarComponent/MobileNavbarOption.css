@@ -1,0 +1,15 @@
+/* .mobile-menu {
+    transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out;
+    opacity: 1;
+    visibility: hidden; 
+
+}
+.mobile-menu.visible {
+    opacity: 1;
+    visibility: visible; 
+}
+
+.mobile-menu.hidden {
+    opacity: 1;
+    visibility: hidden; 
+} */
